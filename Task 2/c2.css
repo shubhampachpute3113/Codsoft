@@ -1,0 +1,260 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-image: linear-gradient(cadetblue,cornflowerblue);
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  h1{
+    font-size: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px #333;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  nav{
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 250px;
+    padding: 10px;
+  }
+
+  nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 40px;
+  }
+
+  nav a:hover{
+    background-color: goldenrod;
+    border-radius: 0.5rem;
+    padding-block: 10px;
+  }
+
+  nav input{
+    margin-left: 10px;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    border: none;
+  }
+
+  nav button[type="submit"]{
+    background-color:#0077cc;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  nav button:hover{
+    background-color: goldenrod;
+  }
+
+  .bg{
+    background-image: url(https://images.hdqwalls.com/download/tropical-landscape-island-5k-jd-2560x1080.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+  }
+
+  .bg h2{
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    margin-bottom: 1rem;
+  }
+
+  .bg p{
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    margin-bottom: 2rem;
+  }
+
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .main h2{
+    text-align: center;
+    width: 100%;
+  }
+
+  .card{
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px #000;
+    width: 400px;
+    margin: 5px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  .card h3{
+    margin: 1rem;
+    font-size: 1.25rem;
+  }
+
+  .card p{
+    margin:0 1rem 1rem;
+    font-size: 1rem;
+  }
+
+  .card button{
+    display: block;
+    background-color:#0077cc;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .card button:hover{
+    background-color: gold;
+  }
+
+  .rev{
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    width: 300px;
+    background-color: antiquewhite;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .rev img{
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  #review button{
+    color: #0077cc;
+    background-color: #ffffff;
+    border: 1px solid #0077cc;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin: 300px 0 0 30px;
+  }
+
+  #review button:hover,#review a:hover{
+    transition: 0.1s ease-in;
+  }
+
+  #review a{
+    text-decoration: none;
+    color: #0077cc;
+  }
+  .column {
+    flex: 1;
+    padding: 10px;
+    margin-right: 100px;
+  }
+  
+  .cta {
+    background-color: cadetblue;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .cta h2{
+    line-height: 1.2;
+  }
+
+  .cta p{
+    margin: 20px 0 0;
+    line-height: 1.5;
+  }
+  .cta input{
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    border: none;
+  }
+
+  .cta button[type="submit"]{
+    background-color:gold;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  .cta button:hover{
+    background-color: #0077cc;
+  }
+  .cta form {
+    margin-top: 10px;
+  }
+
+  .fa {
+    padding: auto;
+    font-size: 50px;
+    width: 25px;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #333;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #333;
+    color: white;
+  }
+
+  /* Instagram */
+  .fa-instagram {
+    background: #333;
+    color: white;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    width: 99.35%;
+  }
+  
